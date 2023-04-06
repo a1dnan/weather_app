@@ -12,6 +12,7 @@ export class AppComponent implements OnInit{
   city: string = 'Rabat';
   weatherData!: WeatherData;
 
+
   constructor(private weatherService: WeatherService){}
 
   ngOnInit(): void {
@@ -29,6 +30,7 @@ export class AppComponent implements OnInit{
       next: (data) =>{
         this.weatherData = data;
       }
+      
     })
   }
 }

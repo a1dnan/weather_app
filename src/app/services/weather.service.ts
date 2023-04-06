@@ -19,6 +19,9 @@ export class WeatherService {
       .set('appid','268fec76d80429be5a686a8aae239599')
       .set('units','metric')
 
+
+
+
     })
   }
 }
